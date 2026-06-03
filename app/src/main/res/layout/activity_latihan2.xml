@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20sp"
+    android:orientation="vertical"
+    tools:context=".Latihan2">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latihan2 _ Merubah Warna"
+        android:textAlignment="center"
+        android:textColor="#0F0E0E"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilihan:"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/rbBiru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biru"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbMerah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Merah"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbHijau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hijau"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btProsesLatihanWarna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proses"
+        android:textSize="18sp"
+        app:cornerRadius="20dp" />
+</LinearLayout>
