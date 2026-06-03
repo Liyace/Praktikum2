@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:orientation="vertical"
+    tools:context=".Latihan5">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="Latihan 5 - Checkbox"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/ic_cube" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Masukkan Sisi (cm)"
+            android:textAlignment="viewStart"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etSisiKubus"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Name"
+            android:textSize="16sp"
+            tools:text="0" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilihan :"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/cbPilihan1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas Persegi" />
+
+    <CheckBox
+        android:id="@+id/cbPilihan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luas Permukaan Kubus" />
+
+    <CheckBox
+        android:id="@+id/cbPilihan3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volume Kubus" />
+
+    <Button
+        android:id="@+id/btnProsesChecBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proses"
+        app:cornerRadius="20dp" />
+
+    <TextView
+        android:id="@+id/tvHasilCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="--------"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>
